@@ -1,0 +1,293 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-color: rgb(25, 33, 48);
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  height: 100px;
+}
+header nav {
+  margin-left: 50%;
+  margin-top: 30px;
+}
+header nav li{
+  float: left;
+  width: 12%;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(62, 65, 80);
+}
+
+
+/* To view borders around section for visibility while working no CSS */
+/* section {
+  border: 3px solid black;
+} */
+
+/* Retail Nav */
+
+section > nav ul li{
+  float: left;
+  width: 10%;
+  list-style: none;
+  color: white;
+  margin: 20px 0;
+
+}
+
+section > nav {
+  margin-left: 30%;
+}
+
+/* Full-Service Marketing */
+
+.marketing {
+  float: left;
+  width: 50%;
+  text-align: center;
+  height: 500px;
+  background-color: white;
+}
+
+
+.blueContent {
+  background-color: rgb(25, 33, 48);
+  color: white;
+  width: 20%;
+  margin-left: 10px;
+  padding: 15px;
+}
+
+section > div {
+  float: left;
+  width: 50%;
+}
+
+div > h6 {
+  background-color: rgb(222, 224, 233);
+  width: 50%;
+  padding: 60px 5px;
+  margin: 10px auto 0 auto;
+}
+
+div h5,
+div p {
+  background-color: white;
+  width: 50%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+div h5 {
+  border-top: 2px solid rgb(222, 224, 233);
+  border-left: 2px solid rgb(222, 224, 233);
+  border-right: 2px solid rgb(222, 224, 233);
+}
+
+div p {
+  border-left: 2px solid rgb(222, 224, 233);
+  border-right: 2px solid rgb(222, 224, 233);
+  border-bottom: 2px solid rgb(222, 224, 233);
+}
+
+.blueBox {
+  background-color: rgb(25, 33, 48);
+  color: white;
+}
+
+/**************************************
+Solution Based 
+***************************************/
+.solutionBased {
+  float: left;
+  width: 50%;
+  height: 550px;
+  background-color: white;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.solutionBased + .solutionBased {
+  text-align: left;
+}
+
+/******************************************
+How Does It Work?
+*********************************************/
+.howWork {
+  background-color: white;
+  float: left;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+/******************************************
+Create an Account For Free
+*********************************************/
+
+/******************************************
+View How It Works
+*********************************************/
+
+.view-Works  {
+  clear: both;
+  background-color: white;
+}
+
+.view-Works h3 {
+  color: white;
+  width: 15%;
+  height: 60px;
+  background-color: rgb(25, 33, 48);
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 0;
+}
+
+
+/******************************************
+Core Features and Tech List
+*********************************************/
+.coreTech {
+  background-color: white;
+  margin-top: -30px;
+}
+
+.coreTech section {
+  width: 20%;
+  padding-left: 10%;
+  padding-bottom: 30px;
+}
+
+/******************************************
+ Boxes
+/*******************************************/
+
+.boxes img {
+  width: 100%;
+}
+
+/******************************************
+ From this Standpoint
+/*******************************************/
+.standpoint {
+  background-color: rgb(248, 248, 250);
+}
+
+/******************************************
+ Love & CEO
+/*******************************************/
+
+.CEO {
+  background-color: white;
+  text-align: center;
+  height: 20%;
+  padding: 20px 0;
+}
+
+/******************************************
+ Take your team
+/*******************************************/
+
+.takeTeam {
+  height: 50px;
+}
+
+.textFooter {
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin: 75px auto;
+}
+
+.contactFooter {
+  background-color: white;
+  color: rgb(25, 33, 48);
+  padding: 10px;
+  text-decoration: none;
+}
+
+.orderFooter {
+  background-color: rgb(62, 65, 80);
+  padding: 10px 20px;
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.white {
+  color: white;
+}
+
+.gray {
+  color: gray;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.signUp {
+  background-color: rgb(62, 65, 80);
+  padding: 10px;
+  color: white;
+}
+
+.home {
+  color: white;
+}
+
+.injectBrand {
+  width: 50%;
+  float: left;
+  color: white;
+  text-align: center;
+  height: 500px;
+  margin: 10px auto;
+}
+
+.injectBrand > a {
+  padding: 10px;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.orderContent {
+  background-color: white;
+  color: rgb(25, 33, 48);
+}
+
+.createAccount {
+  color: white;
+}
